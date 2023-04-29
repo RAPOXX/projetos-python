@@ -1,0 +1,9 @@
+ax.bar(
+    ['ACOMPAHANTES','BABAS','MOTORISTAS'], 
+    [acomphantes_idades_media,babas_idades_media,motoristas_idades_media],
+    width=1,
+    edgecolor="white",
+    linewidth=0.7,
+    label='ACOMPANHANTES',  
+    color=['tab:red','tab:blue','tab:green']
+    )
